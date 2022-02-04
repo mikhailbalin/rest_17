@@ -20,5 +20,12 @@ module.exports = {
       },
     },
     "gatsby-plugin-netlify",
+    {
+      resolve: "gatsby-source-filesystem",
+      options: {
+        name: "markdown-pages",
+        path: `${__dirname}/blog`,
+      },
+    },
   ],
 };

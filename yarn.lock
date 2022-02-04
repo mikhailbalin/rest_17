@@ -7101,6 +7101,29 @@ __metadata:
   languageName: node
   linkType: hard
 
+"gatsby-source-filesystem@npm:^4.6.0":
+  version: 4.6.0
+  resolution: "gatsby-source-filesystem@npm:4.6.0"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+    chokidar: ^3.5.2
+    fastq: ^1.13.0
+    file-type: ^16.5.3
+    fs-extra: ^10.0.0
+    gatsby-core-utils: ^3.6.0
+    got: ^9.6.0
+    md5-file: ^5.0.0
+    mime: ^2.5.2
+    pretty-bytes: ^5.4.1
+    progress: ^2.0.3
+    valid-url: ^1.0.9
+    xstate: ^4.26.1
+  peerDependencies:
+    gatsby: ^4.0.0-next
+  checksum: 0046645e7efdaa27a0ae3be25a4ccb16093c15d873a295311576cbb99ccefec298adf45b511247f8235ddabb2e7e923556645c99e537b17cf90c3c17335e564b
+  languageName: node
+  linkType: hard
+
 "gatsby-telemetry@npm:^3.6.0":
   version: 3.6.0
   resolution: "gatsby-telemetry@npm:3.6.0"
@@ -12587,6 +12610,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"pretty-bytes@npm:^5.4.1":
+  version: 5.6.0
+  resolution: "pretty-bytes@npm:5.6.0"
+  checksum: 9c082500d1e93434b5b291bd651662936b8bd6204ec9fa17d563116a192d6d86b98f6d328526b4e8d783c07d5499e2614a807520249692da9ec81564b2f439cd
+  languageName: node
+  linkType: hard
+
 "pretty-error@npm:^2.1.2":
   version: 2.1.2
   resolution: "pretty-error@npm:2.1.2"
@@ -14023,6 +14053,7 @@ __metadata:
     gatsby: ^4.6.1
     gatsby-plugin-netlify: ^4.1.0
     gatsby-plugin-netlify-cms: ^6.6.0
+    gatsby-source-filesystem: ^4.6.0
     netlify-cms-app: ^2.15.65
     react: ^17.0.2
     react-dom: ^17.0.2
@@ -16321,7 +16352,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"valid-url@npm:1.0.9":
+"valid-url@npm:1.0.9, valid-url@npm:^1.0.9":
   version: 1.0.9
   resolution: "valid-url@npm:1.0.9"
   checksum: 3ecb030559404441c2cf104cbabab8770efb0f36d117db03d1081052ef133015a68806148ce954bb4dd0b5c42c14b709a88783c93d66b0916cb67ba771c98702
@@ -16815,7 +16846,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"xstate@npm:^4.26.0":
+"xstate@npm:^4.26.0, xstate@npm:^4.26.1":
   version: 4.29.0
   resolution: "xstate@npm:4.29.0"
   checksum: af4d273632dbab9df91aba1204bf9c28ff2dbed73a23ed16c77e2151702a18030b9187565bdb92f9e95c309b0cffa6d86655d1b36f2e22e8f0a0d193472dea6b

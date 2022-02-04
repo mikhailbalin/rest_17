@@ -1,9 +1,9 @@
 {
-  "name": "rest17",
+  "name": "rest_17",
   "version": "1.0.0",
   "private": true,
-  "description": "Rest17",
-  "author": "Misha Balin",
+  "description": "Web for Rest_17",
+  "author": "Mikhail Balin",
   "keywords": [
     "gatsby"
   ],

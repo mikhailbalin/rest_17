@@ -1,6 +1,6 @@
 module.exports = {
   siteMetadata: {
-    title: `Rest17`,
+    title: `Rest_17`,
     siteUrl: `https://www.yourdomain.tld`,
   },
   plugins: [

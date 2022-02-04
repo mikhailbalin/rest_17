@@ -38,6 +38,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:17.0.38"],
             ["@types/react-dom", "npm:17.0.11"],
             ["gatsby", "virtual:42393b7dd22ea104f51e21fd5b0c0a6ab408c202c89c10735345dffa4e2b454e95442ed7c6462e9a933f108ec8e6c312cc5ae2a5b67b3b96a90aef721bac8dbf#npm:4.6.1"],
+            ["gatsby-plugin-netlify", "virtual:42393b7dd22ea104f51e21fd5b0c0a6ab408c202c89c10735345dffa4e2b454e95442ed7c6462e9a933f108ec8e6c312cc5ae2a5b67b3b96a90aef721bac8dbf#npm:4.1.0"],
             ["gatsby-plugin-netlify-cms", "virtual:42393b7dd22ea104f51e21fd5b0c0a6ab408c202c89c10735345dffa4e2b454e95442ed7c6462e9a933f108ec8e6c312cc5ae2a5b67b3b96a90aef721bac8dbf#npm:6.6.0"],
             ["netlify-cms-app", "virtual:42393b7dd22ea104f51e21fd5b0c0a6ab408c202c89c10735345dffa4e2b454e95442ed7c6462e9a933f108ec8e6c312cc5ae2a5b67b3b96a90aef721bac8dbf#npm:2.15.65"],
             ["react", "npm:17.0.2"],
@@ -9828,6 +9829,34 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["gatsby-plugin-netlify", [
+        ["npm:4.1.0", {
+          "packageLocation": "./.yarn/cache/gatsby-plugin-netlify-npm-4.1.0-59ebba232c-43444138cc.zip/node_modules/gatsby-plugin-netlify/",
+          "packageDependencies": [
+            ["gatsby-plugin-netlify", "npm:4.1.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:42393b7dd22ea104f51e21fd5b0c0a6ab408c202c89c10735345dffa4e2b454e95442ed7c6462e9a933f108ec8e6c312cc5ae2a5b67b3b96a90aef721bac8dbf#npm:4.1.0", {
+          "packageLocation": "./.yarn/__virtual__/gatsby-plugin-netlify-virtual-8ff202d0b8/0/cache/gatsby-plugin-netlify-npm-4.1.0-59ebba232c-43444138cc.zip/node_modules/gatsby-plugin-netlify/",
+          "packageDependencies": [
+            ["gatsby-plugin-netlify", "virtual:42393b7dd22ea104f51e21fd5b0c0a6ab408c202c89c10735345dffa4e2b454e95442ed7c6462e9a933f108ec8e6c312cc5ae2a5b67b3b96a90aef721bac8dbf#npm:4.1.0"],
+            ["@babel/runtime", "npm:7.17.0"],
+            ["@types/gatsby", null],
+            ["fs-extra", "npm:10.0.0"],
+            ["gatsby", "virtual:42393b7dd22ea104f51e21fd5b0c0a6ab408c202c89c10735345dffa4e2b454e95442ed7c6462e9a933f108ec8e6c312cc5ae2a5b67b3b96a90aef721bac8dbf#npm:4.6.1"],
+            ["gatsby-core-utils", "npm:3.6.0"],
+            ["kebab-hash", "npm:0.1.2"],
+            ["lodash", "npm:4.17.21"],
+            ["webpack-assets-manifest", "virtual:8ff202d0b8298d312dba24cc4e0925050a8c1dfcfdd98cc67b23253b08eb120668483295d50b989a870efd3de2bbd0a2f7b1e5a709ddf48da4399ffdf6a8ce1c#npm:5.1.0"]
+          ],
+          "packagePeers": [
+            "@types/gatsby",
+            "gatsby"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["gatsby-plugin-netlify-cms", [
         ["npm:6.6.0", {
           "packageLocation": "./.yarn/cache/gatsby-plugin-netlify-cms-npm-6.6.0-b6f09c460d-2d6d2b6be4.zip/node_modules/gatsby-plugin-netlify-cms/",
@@ -12375,6 +12404,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["kebab-hash", [
+        ["npm:0.1.2", {
+          "packageLocation": "./.yarn/cache/kebab-hash-npm-0.1.2-e130c7867f-d3e3ecd949.zip/node_modules/kebab-hash/",
+          "packageDependencies": [
+            ["kebab-hash", "npm:0.1.2"],
+            ["lodash.kebabcase", "npm:4.1.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["keyv", [
         ["npm:3.1.0", {
           "packageLocation": "./.yarn/cache/keyv-npm-3.1.0-81c9ff4454-bb7e8f3acf.zip/node_modules/keyv/",
@@ -12623,6 +12662,16 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["lockfile", [
+        ["npm:1.0.4", {
+          "packageLocation": "./.yarn/cache/lockfile-npm-1.0.4-00301b5723-8de35aace8.zip/node_modules/lockfile/",
+          "packageDependencies": [
+            ["lockfile", "npm:1.0.4"],
+            ["signal-exit", "npm:3.0.6"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["lodash", [
         ["npm:4.17.21", {
           "packageLocation": "./.yarn/cache/lodash-npm-4.17.21-6382451519-eb835a2e51.zip/node_modules/lodash/",
@@ -12709,6 +12758,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./.yarn/cache/lodash.get-npm-4.4.2-7bda64ed87-e403047ddb.zip/node_modules/lodash.get/",
           "packageDependencies": [
             ["lodash.get", "npm:4.4.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["lodash.has", [
+        ["npm:4.5.2", {
+          "packageLocation": "./.yarn/cache/lodash.has-npm-4.5.2-0a10673e08-b3ec829a86.zip/node_modules/lodash.has/",
+          "packageDependencies": [
+            ["lodash.has", "npm:4.5.2"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["lodash.kebabcase", [
+        ["npm:4.1.1", {
+          "packageLocation": "./.yarn/cache/lodash.kebabcase-npm-4.1.1-89ffca7e1f-5a6c591619.zip/node_modules/lodash.kebabcase/",
+          "packageDependencies": [
+            ["lodash.kebabcase", "npm:4.1.1"]
           ],
           "linkType": "HARD",
         }]
@@ -19257,6 +19324,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["@types/react", "npm:17.0.38"],
             ["@types/react-dom", "npm:17.0.11"],
             ["gatsby", "virtual:42393b7dd22ea104f51e21fd5b0c0a6ab408c202c89c10735345dffa4e2b454e95442ed7c6462e9a933f108ec8e6c312cc5ae2a5b67b3b96a90aef721bac8dbf#npm:4.6.1"],
+            ["gatsby-plugin-netlify", "virtual:42393b7dd22ea104f51e21fd5b0c0a6ab408c202c89c10735345dffa4e2b454e95442ed7c6462e9a933f108ec8e6c312cc5ae2a5b67b3b96a90aef721bac8dbf#npm:4.1.0"],
             ["gatsby-plugin-netlify-cms", "virtual:42393b7dd22ea104f51e21fd5b0c0a6ab408c202c89c10735345dffa4e2b454e95442ed7c6462e9a933f108ec8e6c312cc5ae2a5b67b3b96a90aef721bac8dbf#npm:6.6.0"],
             ["netlify-cms-app", "virtual:42393b7dd22ea104f51e21fd5b0c0a6ab408c202c89c10735345dffa4e2b454e95442ed7c6462e9a933f108ec8e6c312cc5ae2a5b67b3b96a90aef721bac8dbf#npm:2.15.65"],
             ["react", "npm:17.0.2"],
@@ -22217,6 +22285,35 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packagePeers": [
             "@types/webpack-cli",
             "webpack-cli"
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["webpack-assets-manifest", [
+        ["npm:5.1.0", {
+          "packageLocation": "./.yarn/cache/webpack-assets-manifest-npm-5.1.0-fad26f5290-30b0929f6a.zip/node_modules/webpack-assets-manifest/",
+          "packageDependencies": [
+            ["webpack-assets-manifest", "npm:5.1.0"]
+          ],
+          "linkType": "SOFT",
+        }],
+        ["virtual:8ff202d0b8298d312dba24cc4e0925050a8c1dfcfdd98cc67b23253b08eb120668483295d50b989a870efd3de2bbd0a2f7b1e5a709ddf48da4399ffdf6a8ce1c#npm:5.1.0", {
+          "packageLocation": "./.yarn/__virtual__/webpack-assets-manifest-virtual-c0fd0b0fdf/0/cache/webpack-assets-manifest-npm-5.1.0-fad26f5290-30b0929f6a.zip/node_modules/webpack-assets-manifest/",
+          "packageDependencies": [
+            ["webpack-assets-manifest", "virtual:8ff202d0b8298d312dba24cc4e0925050a8c1dfcfdd98cc67b23253b08eb120668483295d50b989a870efd3de2bbd0a2f7b1e5a709ddf48da4399ffdf6a8ce1c#npm:5.1.0"],
+            ["@types/webpack", null],
+            ["chalk", "npm:4.1.2"],
+            ["deepmerge", "npm:4.2.2"],
+            ["lockfile", "npm:1.0.4"],
+            ["lodash.get", "npm:4.4.2"],
+            ["lodash.has", "npm:4.5.2"],
+            ["schema-utils", "npm:3.1.1"],
+            ["tapable", "npm:2.2.1"],
+            ["webpack", null]
+          ],
+          "packagePeers": [
+            "@types/webpack",
+            "webpack"
           ],
           "linkType": "HARD",
         }]

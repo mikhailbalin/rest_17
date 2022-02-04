@@ -1,3 +1,4 @@
 [build.environment]
-  YARN_ENABLE_GLOBAL_CACHE = "true"
-  YARN_GLOBAL_FOLDER = "/opt/buildhome/.yarn_cache"
+  NODE_VERSION = "16"
+  YARN_VERSION = "3.1.1"
+  YARN_CACHE_FOLDER = "/opt/buildhome/.yarn_cache"

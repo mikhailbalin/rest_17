@@ -14,10 +14,11 @@ media_folder: static/assets
 public_folder: /assets
 
 collections:
-  - name: blog
-    label: Blog
-    folder: blog
+  - name: "blog"
+    label: "Blog"
+    folder: "src/pages/blog"
     create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
     fields:
       - { name: path, label: Path }
       - { name: date, label: Date, widget: datetime }

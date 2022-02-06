@@ -1681,6 +1681,20 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@fontsource/el-messiri@npm:^4.5.3":
+  version: 4.5.3
+  resolution: "@fontsource/el-messiri@npm:4.5.3"
+  checksum: bc65e5c8562769e3648d986d7a642f82959cb55544152d5850ffa457d3c3028fb9428338315e5b58a058256570c9ad0e1308df6929fc5ac3d84b1953b79124a0
+  languageName: node
+  linkType: hard
+
+"@fontsource/jost@npm:^4.5.3":
+  version: 4.5.3
+  resolution: "@fontsource/jost@npm:4.5.3"
+  checksum: 7a85ccc950a7211cd0cb685a79a9cf604b48f3aa69563f2b1a2c547f57754f1c1e5d60049c83ce9ce94ab9ecd0646f51dfde68627709f777a9214dc8975fb2bd
+  languageName: node
+  linkType: hard
+
 "@gar/promisify@npm:^1.0.1":
   version: 1.1.2
   resolution: "@gar/promisify@npm:1.1.2"
@@ -14728,6 +14742,8 @@ __metadata:
   version: 0.0.0-use.local
   resolution: "rest17@workspace:."
   dependencies:
+    "@fontsource/el-messiri": ^4.5.3
+    "@fontsource/jost": ^4.5.3
     "@types/react": ^17.0.38
     "@types/react-dom": ^17.0.11
     "@types/styletron-engine-atomic": ^1

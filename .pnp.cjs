@@ -35,6 +35,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
         [null, {
           "packageLocation": "./",
           "packageDependencies": [
+            ["@fontsource/el-messiri", "npm:4.5.3"],
+            ["@fontsource/jost", "npm:4.5.3"],
             ["@types/react", "npm:17.0.38"],
             ["@types/react-dom", "npm:17.0.11"],
             ["@types/styletron-engine-atomic", "npm:1.1.1"],
@@ -2822,6 +2824,24 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["js-yaml", "npm:3.14.1"],
             ["minimatch", "npm:3.0.4"],
             ["strip-json-comments", "npm:3.1.1"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@fontsource/el-messiri", [
+        ["npm:4.5.3", {
+          "packageLocation": "./.yarn/cache/@fontsource-el-messiri-npm-4.5.3-50909829df-bc65e5c856.zip/node_modules/@fontsource/el-messiri/",
+          "packageDependencies": [
+            ["@fontsource/el-messiri", "npm:4.5.3"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
+      ["@fontsource/jost", [
+        ["npm:4.5.3", {
+          "packageLocation": "./.yarn/cache/@fontsource-jost-npm-4.5.3-07a2556d85-7a85ccc950.zip/node_modules/@fontsource/jost/",
+          "packageDependencies": [
+            ["@fontsource/jost", "npm:4.5.3"]
           ],
           "linkType": "HARD",
         }]
@@ -20287,6 +20307,8 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "packageLocation": "./",
           "packageDependencies": [
             ["rest17", "workspace:."],
+            ["@fontsource/el-messiri", "npm:4.5.3"],
+            ["@fontsource/jost", "npm:4.5.3"],
             ["@types/react", "npm:17.0.38"],
             ["@types/react-dom", "npm:17.0.11"],
             ["@types/styletron-engine-atomic", "npm:1.1.1"],

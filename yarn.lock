@@ -19637,6 +19637,7 @@ __metadata:
     "@types/styletron-react": ^5.0.3
     "@types/styletron-standard": ^2.0.2
     babel-loader: ^8.2.3
+    babel-plugin-remove-graphql-queries: ^4.6.0
     baseui: ^10.8.0
     gatsby: ^4.6.1
     gatsby-plugin-netlify: ^4.1.0

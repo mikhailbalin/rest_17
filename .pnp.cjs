@@ -47,6 +47,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gatsby-plugin-styletron", "virtual:42393b7dd22ea104f51e21fd5b0c0a6ab408c202c89c10735345dffa4e2b454e95442ed7c6462e9a933f108ec8e6c312cc5ae2a5b67b3b96a90aef721bac8dbf#npm:7.6.0"],
             ["gatsby-source-filesystem", "virtual:42393b7dd22ea104f51e21fd5b0c0a6ab408c202c89c10735345dffa4e2b454e95442ed7c6462e9a933f108ec8e6c312cc5ae2a5b67b3b96a90aef721bac8dbf#npm:4.6.0"],
             ["gatsby-transformer-remark", "virtual:42393b7dd22ea104f51e21fd5b0c0a6ab408c202c89c10735345dffa4e2b454e95442ed7c6462e9a933f108ec8e6c312cc5ae2a5b67b3b96a90aef721bac8dbf#npm:5.6.0"],
+            ["modern-normalize", "npm:1.1.0"],
             ["netlify-cms-app", "virtual:42393b7dd22ea104f51e21fd5b0c0a6ab408c202c89c10735345dffa4e2b454e95442ed7c6462e9a933f108ec8e6c312cc5ae2a5b67b3b96a90aef721bac8dbf#npm:2.15.65"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:42393b7dd22ea104f51e21fd5b0c0a6ab408c202c89c10735345dffa4e2b454e95442ed7c6462e9a933f108ec8e6c312cc5ae2a5b67b3b96a90aef721bac8dbf#npm:17.0.2"],
@@ -14351,6 +14352,15 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
           "linkType": "HARD",
         }]
       ]],
+      ["modern-normalize", [
+        ["npm:1.1.0", {
+          "packageLocation": "./.yarn/cache/modern-normalize-npm-1.1.0-8b51a7106b-edfd40650b.zip/node_modules/modern-normalize/",
+          "packageDependencies": [
+            ["modern-normalize", "npm:1.1.0"]
+          ],
+          "linkType": "HARD",
+        }]
+      ]],
       ["moment", [
         ["npm:2.29.1", {
           "packageLocation": "./.yarn/cache/moment-npm-2.29.1-787d9fdafd-1e14d5f422.zip/node_modules/moment/",
@@ -20289,6 +20299,7 @@ function $$SETUP_STATE(hydrateRuntimeState, basePath) {
             ["gatsby-plugin-styletron", "virtual:42393b7dd22ea104f51e21fd5b0c0a6ab408c202c89c10735345dffa4e2b454e95442ed7c6462e9a933f108ec8e6c312cc5ae2a5b67b3b96a90aef721bac8dbf#npm:7.6.0"],
             ["gatsby-source-filesystem", "virtual:42393b7dd22ea104f51e21fd5b0c0a6ab408c202c89c10735345dffa4e2b454e95442ed7c6462e9a933f108ec8e6c312cc5ae2a5b67b3b96a90aef721bac8dbf#npm:4.6.0"],
             ["gatsby-transformer-remark", "virtual:42393b7dd22ea104f51e21fd5b0c0a6ab408c202c89c10735345dffa4e2b454e95442ed7c6462e9a933f108ec8e6c312cc5ae2a5b67b3b96a90aef721bac8dbf#npm:5.6.0"],
+            ["modern-normalize", "npm:1.1.0"],
             ["netlify-cms-app", "virtual:42393b7dd22ea104f51e21fd5b0c0a6ab408c202c89c10735345dffa4e2b454e95442ed7c6462e9a933f108ec8e6c312cc5ae2a5b67b3b96a90aef721bac8dbf#npm:2.15.65"],
             ["react", "npm:17.0.2"],
             ["react-dom", "virtual:42393b7dd22ea104f51e21fd5b0c0a6ab408c202c89c10735345dffa4e2b454e95442ed7c6462e9a933f108ec8e6c312cc5ae2a5b67b3b96a90aef721bac8dbf#npm:17.0.2"],

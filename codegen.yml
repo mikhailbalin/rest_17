@@ -1,12 +1,29 @@
 overwrite: true
 schema: "http://localhost:8000/___graphql"
-documents: "./src/**/*.{ts,tsx}"
+documents:
+  - "src/**/!(*.types).{ts,tsx}"
+  - ./node_modules/gatsby*/!(node_modules)/**/*.js
 
 generates:
-  src/generated/graphql.tsx:
+  src/generated/types.ts:
     plugins:
       - "typescript"
-      - "typescript-operations"
-  ./graphql.schema.json:
+
+  src/:
+    preset: near-operation-file
+    presetConfig:
+      extension: .types.ts
+      baseTypesPath: generated/types.ts
+      folder: generated
+    plugins:
+      - typescript-operations
+    config:
+      preResolveTypes: false
+
+  generated/schema.json:
     plugins:
       - "introspection"
+
+hooks:
+  afterAllFileWrite:
+    - prettier --write

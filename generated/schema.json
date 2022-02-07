@@ -21385,9 +21385,7 @@
         "name": "childOf",
         "description": "Define parent-child relations between types. This is used to add `child*` and `children*` convenience fields like `childImageSharp`.",
         "isRepeatable": false,
-        "locations": [
-          "OBJECT"
-        ],
+        "locations": ["OBJECT"],
         "args": [
           {
             "name": "mimeTypes",
@@ -21443,9 +21441,7 @@
         "name": "dateformat",
         "description": "Add date formatting options.",
         "isRepeatable": false,
-        "locations": [
-          "FIELD_DEFINITION"
-        ],
+        "locations": ["FIELD_DEFINITION"],
         "args": [
           {
             "name": "difference",
@@ -21526,18 +21522,14 @@
         "name": "dontInfer",
         "description": "Do not infer field types from field values.",
         "isRepeatable": false,
-        "locations": [
-          "OBJECT"
-        ],
+        "locations": ["OBJECT"],
         "args": []
       },
       {
         "name": "fileByRelativePath",
         "description": "Link to File node by relative path.",
         "isRepeatable": false,
-        "locations": [
-          "FIELD_DEFINITION"
-        ],
+        "locations": ["FIELD_DEFINITION"],
         "args": [
           {
             "name": "from",
@@ -21557,11 +21549,7 @@
         "name": "include",
         "description": "Directs the executor to include this field or fragment only when the `if` argument is true.",
         "isRepeatable": false,
-        "locations": [
-          "FIELD",
-          "FRAGMENT_SPREAD",
-          "INLINE_FRAGMENT"
-        ],
+        "locations": ["FIELD", "FRAGMENT_SPREAD", "INLINE_FRAGMENT"],
         "args": [
           {
             "name": "if",
@@ -21585,18 +21573,14 @@
         "name": "infer",
         "description": "Infer field types from field values.",
         "isRepeatable": false,
-        "locations": [
-          "OBJECT"
-        ],
+        "locations": ["OBJECT"],
         "args": []
       },
       {
         "name": "link",
         "description": "Link to node by foreign-key relation.",
         "isRepeatable": false,
-        "locations": [
-          "FIELD_DEFINITION"
-        ],
+        "locations": ["FIELD_DEFINITION"],
         "args": [
           {
             "name": "by",
@@ -21644,9 +21628,7 @@
         "name": "mimeTypes",
         "description": "Define the mime-types handled by this type.",
         "isRepeatable": false,
-        "locations": [
-          "OBJECT"
-        ],
+        "locations": ["OBJECT"],
         "args": [
           {
             "name": "types",
@@ -21678,18 +21660,14 @@
         "name": "nodeInterface",
         "description": "DEPRECATED: Use interface inheritance instead, i.e. \"interface Foo implements Node\".\n\nAdds root query fields for an interface. All implementing types must also implement the Node interface.",
         "isRepeatable": false,
-        "locations": [
-          "INTERFACE"
-        ],
+        "locations": ["INTERFACE"],
         "args": []
       },
       {
         "name": "proxy",
         "description": "Proxy resolver from another field.",
         "isRepeatable": false,
-        "locations": [
-          "FIELD_DEFINITION"
-        ],
+        "locations": ["FIELD_DEFINITION"],
         "args": [
           {
             "name": "from",
@@ -21729,11 +21707,7 @@
         "name": "skip",
         "description": "Directs the executor to skip this field or fragment when the `if` argument is true.",
         "isRepeatable": false,
-        "locations": [
-          "FIELD",
-          "FRAGMENT_SPREAD",
-          "INLINE_FRAGMENT"
-        ],
+        "locations": ["FIELD", "FRAGMENT_SPREAD", "INLINE_FRAGMENT"],
         "args": [
           {
             "name": "if",
@@ -21757,9 +21731,7 @@
         "name": "specifiedBy",
         "description": "Exposes a URL that specifies the behavior of this scalar.",
         "isRepeatable": false,
-        "locations": [
-          "SCALAR"
-        ],
+        "locations": ["SCALAR"],
         "args": [
           {
             "name": "url",

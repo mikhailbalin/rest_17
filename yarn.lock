@@ -2006,6 +2006,18 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@graphql-codegen/add@npm:^3.1.1":
+  version: 3.1.1
+  resolution: "@graphql-codegen/add@npm:3.1.1"
+  dependencies:
+    "@graphql-codegen/plugin-helpers": ^2.3.2
+    tslib: ~2.3.0
+  peerDependencies:
+    graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
+  checksum: 293ed4b679dfa18ba977a6e159f0760e64bf9e153d139d4b2d6fc21f4438170a516959c7841c766f4187f17b788f569333fb4ab126c151627553724b38183101
+  languageName: node
+  linkType: hard
+
 "@graphql-codegen/cli@npm:2.5.0":
   version: 2.5.0
   resolution: "@graphql-codegen/cli@npm:2.5.0"
@@ -2083,6 +2095,22 @@ __metadata:
   peerDependencies:
     graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
   checksum: 58f862805ade270242a6dc2294bdce22b12a80105420642f05fc44032de1bc10a9d212fd189138c7e594d420b3821da0b2ecebb4417e8f69a0d38c89c972c3a7
+  languageName: node
+  linkType: hard
+
+"@graphql-codegen/near-operation-file-preset@npm:^2.2.4":
+  version: 2.2.4
+  resolution: "@graphql-codegen/near-operation-file-preset@npm:2.2.4"
+  dependencies:
+    "@graphql-codegen/add": ^3.1.1
+    "@graphql-codegen/plugin-helpers": ^2.4.0
+    "@graphql-codegen/visitor-plugin-common": 2.6.0
+    "@graphql-tools/utils": ^8.5.2
+    parse-filepath: ^1.0.2
+    tslib: ~2.3.0
+  peerDependencies:
+    graphql: ^0.8.0 || ^0.9.0 || ^0.10.0 || ^0.11.0 || ^0.12.0 || ^0.13.0 || ^14.0.0 || ^15.0.0 || ^16.0.0
+  checksum: f2486c982f138075851c442d04650239c6d524964b6bd1138564db886134ce91137e4c58a737cbe3261c9061cff0f495153b6933b6af8939cbeaaa8854cb13b8
   languageName: node
   linkType: hard
 
@@ -21362,6 +21390,7 @@ __metadata:
     "@fortawesome/react-fontawesome": ^0.1.17
     "@graphql-codegen/cli": 2.5.0
     "@graphql-codegen/introspection": 2.1.1
+    "@graphql-codegen/near-operation-file-preset": ^2.2.4
     "@graphql-codegen/typescript": 2.4.3
     "@graphql-codegen/typescript-operations": 2.2.4
     "@mdx-js/react": ^1.6.22

@@ -1,8 +1,8 @@
 import React, { ReactNode } from "react";
 import { LightTheme, BaseProvider, LocaleProvider } from "baseui";
-import { localeOverrideRu } from "../locale/localeOverrideRu";
 import { Helmet } from "react-helmet";
-import { useSiteMetadata } from "../hooks/useSiteMetadata";
+import { useSiteMetadata } from "../../hooks/useSiteMetadata";
+import { localeOverrideRu } from "../../locale/localeOverrideRu";
 
 type LayoutProps = {
   children: ReactNode;

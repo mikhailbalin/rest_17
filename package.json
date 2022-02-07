@@ -15,7 +15,7 @@
     "clean": "gatsby clean",
     "storybook": "start-storybook -p 6006",
     "build-storybook": "build-storybook",
-    "codegen": "graphql-codegen --config codegen.yml --watch 'src/**/*.ts'"
+    "codegen": "graphql-codegen --config codegen.yml --watch"
   },
   "dependencies": {
     "@fontsource/el-messiri": "^4.5.3",

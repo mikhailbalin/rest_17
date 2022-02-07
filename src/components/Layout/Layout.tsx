@@ -3,6 +3,7 @@ import { LightTheme, BaseProvider, LocaleProvider } from "baseui";
 import { Helmet } from "react-helmet";
 import { useSiteMetadata } from "../../hooks/useSiteMetadata";
 import { localeOverrideRu } from "../../locale/localeOverrideRu";
+import { PageWrapper } from "./PageWrapper";
 
 type LayoutProps = {
   children: ReactNode;
@@ -25,7 +26,8 @@ export const Layout = ({ children }: LayoutProps) => {
           <meta property="og:title" content={title} />
           <meta property="og:url" content="/" />
         </Helmet>
-        {children}
+
+        <PageWrapper>{children}</PageWrapper>
       </LocaleProvider>
     </BaseProvider>
   );

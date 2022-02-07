@@ -31,5 +31,12 @@ module.exports = {
     "gatsby-transformer-remark",
     "gatsby-plugin-styletron",
     "gatsby-plugin-react-helmet",
+    {
+      resolve: "gatsby-plugin-typescript",
+      options: {
+        isTSX: true,
+        allExtensions: true,
+      },
+    },
   ],
 };

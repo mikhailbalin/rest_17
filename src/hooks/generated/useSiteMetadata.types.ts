@@ -8,7 +8,7 @@ export type SiteMetadataQuery = { __typename?: "Query" } & {
       siteMetadata?: Types.Maybe<
         { __typename?: "SiteSiteMetadata" } & Pick<
           Types.SiteSiteMetadata,
-          "title" | "description"
+          "title" | "description" | "siteUrl"
         >
       >;
     }

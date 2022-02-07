@@ -9,11 +9,16 @@ export const useSiteMetadata = () => {
           siteMetadata {
             title
             description
+            siteUrl
           }
         }
       }
     `
   );
 
-  return site.siteMetadata;
+  return {
+    title: site?.siteMetadata?.title || "",
+    description: site?.siteMetadata?.title || "",
+    siteUrl: site?.siteMetadata?.siteUrl || "",
+  };
 };

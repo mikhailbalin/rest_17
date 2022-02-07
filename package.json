@@ -14,7 +14,8 @@
     "serve": "gatsby serve",
     "clean": "gatsby clean",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "build-storybook": "build-storybook",
+    "codegen": "graphql-codegen --config codegen.yml --watch 'src/**/*.ts'"
   },
   "dependencies": {
     "@fontsource/el-messiri": "^4.5.3",
@@ -44,7 +45,10 @@
   "packageManager": "yarn@3.1.1",
   "devDependencies": {
     "@babel/core": "^7.17.0",
-    "@graphql-codegen/cli": "^2.5.0",
+    "@graphql-codegen/cli": "2.5.0",
+    "@graphql-codegen/introspection": "2.1.1",
+    "@graphql-codegen/typescript": "2.4.3",
+    "@graphql-codegen/typescript-operations": "2.2.4",
     "@mdx-js/react": "^1.6.22",
     "@storybook/addon-actions": "^6.4.18",
     "@storybook/addon-docs": "^6.4.18",

@@ -29,5 +29,6 @@ module.exports = {
     },
     "gatsby-transformer-remark",
     "gatsby-plugin-styletron",
+    "gatsby-plugin-react-helmet",
   ],
 };

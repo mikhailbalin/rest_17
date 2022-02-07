@@ -4459,6 +4459,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/react-helmet@npm:^6":
+  version: 6.1.5
+  resolution: "@types/react-helmet@npm:6.1.5"
+  dependencies:
+    "@types/react": "*"
+  checksum: d059cc084d3b3071cce3421bb1170dd42819cf39b81afe60d4fbd66c5ef9ffeaadf1802df80efd9553258f621678f69ceb5a21d73df0d8539d40ae9a0f995485
+  languageName: node
+  linkType: hard
+
 "@types/react-redux@npm:^7.1.20":
   version: 7.1.22
   resolution: "@types/react-redux@npm:7.1.22"
@@ -10848,6 +10857,18 @@ __metadata:
   peerDependencies:
     gatsby: ^4.0.0-next
   checksum: 71d800b54aeae5aa0aa0e77a26023e2541472f0243f53bea6b4585c8899b58b43083f011283192c7556d3a86f98acc0bcd11695e1c2ae902ef0d234065617f61
+  languageName: node
+  linkType: hard
+
+"gatsby-plugin-react-helmet@npm:^5.6.0":
+  version: 5.6.0
+  resolution: "gatsby-plugin-react-helmet@npm:5.6.0"
+  dependencies:
+    "@babel/runtime": ^7.15.4
+  peerDependencies:
+    gatsby: ^4.0.0-next
+    react-helmet: ^5.1.3 || ^6.0.0
+  checksum: 4ec04edff50b27074e631688178c997854a89db2a91159582ab2b091683e5e4faa7ac00b81fe3077a3a5f257d5c274e4f5b699dfd6959793a30076310ff7945f
   languageName: node
   linkType: hard
 
@@ -18544,7 +18565,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"react-fast-compare@npm:^3.0.1, react-fast-compare@npm:^3.2.0":
+"react-fast-compare@npm:^3.0.1, react-fast-compare@npm:^3.1.1, react-fast-compare@npm:^3.2.0":
   version: 3.2.0
   resolution: "react-fast-compare@npm:3.2.0"
   checksum: 8ef272c825ae329f61633ce4ce7f15aa5b84e5214d88bc0823880236e03e985a13195befa2c7a4eda7db3b017dc7985729152d88445823f652403cf36c2b86aa
@@ -18591,6 +18612,20 @@ __metadata:
     react: ^16.6.0 || ^17.0.0
     react-dom: ^16.6.0 || ^17.0.0
   checksum: 3251ab596143a48f9380a78a9e71f451ef729e25081bb4c1476561a1689eee23d650964e1518792bd44a8d24d95da1f9774b9b7ed80cae8eccc8119d7f5dd3f3
+  languageName: node
+  linkType: hard
+
+"react-helmet@npm:^6.1.0":
+  version: 6.1.0
+  resolution: "react-helmet@npm:6.1.0"
+  dependencies:
+    object-assign: ^4.1.1
+    prop-types: ^15.7.2
+    react-fast-compare: ^3.1.1
+    react-side-effect: ^2.1.0
+  peerDependencies:
+    react: ">=16.3.0"
+  checksum: a4998479dab7fc1c2799eddefb1870a9d881b5f71cfdf97979a9882e42f4bb50402d55335f308f461e735e01a06f46b16cc7b4e6bcb22c7a4a6f85a753c5c106
   languageName: node
   linkType: hard
 
@@ -18934,6 +18969,15 @@ __metadata:
     react: ^16.8.0 || ^17.0.0
     react-dom: ^16.8.0 || ^17.0.0
   checksum: e87e0b42a662ddce7957a69a3029ea769b22264c197cbd1d8bde1ce631e49c5c5f42414773364674a7a6a8431340e1ede49220583bf1dcd966b63e9bd25cfc12
+  languageName: node
+  linkType: hard
+
+"react-side-effect@npm:^2.1.0":
+  version: 2.1.1
+  resolution: "react-side-effect@npm:2.1.1"
+  peerDependencies:
+    react: ^16.3.0 || ^17.0.0
+  checksum: 324511ea8f6669555e166b4af280cdf46034bf0e33c486711e3ce17f88f6f21fed17055098408be1347657d0cbcd614bca944cf9f8e4ecfa96a21d13893fe9fc
   languageName: node
   linkType: hard
 
@@ -19925,6 +19969,7 @@ __metadata:
     "@types/babel__core": ^7
     "@types/react": ^17.0.38
     "@types/react-dom": ^17.0.11
+    "@types/react-helmet": ^6
     "@types/styletron-engine-atomic": ^1
     "@types/styletron-react": ^5.0.3
     "@types/styletron-standard": ^2.0.2
@@ -19935,6 +19980,7 @@ __metadata:
     gatsby: ^4.6.1
     gatsby-plugin-netlify: ^4.1.0
     gatsby-plugin-netlify-cms: ^6.6.0
+    gatsby-plugin-react-helmet: ^5.6.0
     gatsby-plugin-styletron: ^7.6.0
     gatsby-source-filesystem: ^4.6.0
     gatsby-transformer-remark: ^5.6.0
@@ -19942,6 +19988,7 @@ __metadata:
     netlify-cms-app: ^2.15.65
     react: ^17.0.2
     react-dom: ^17.0.2
+    react-helmet: ^6.1.0
     styletron-engine-atomic: ^1.4.8
     styletron-react: ^6.0.2
     styletron-standard: ^3.0.5

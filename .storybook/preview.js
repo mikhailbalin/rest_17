@@ -1,4 +1,13 @@
 import { action } from "@storybook/addon-actions";
+import { Client as Styletron } from "styletron-engine-atomic";
+import { Provider as StyletronProvider } from "styletron-react";
+import { BaseProvider } from "baseui";
+import { customTheme } from "../src/theme";
+import "modern-normalize/modern-normalize.css";
+import "@fontsource/jost/400.css";
+import "@fontsource/jost/cyrillic-400.css";
+import "@fontsource/el-messiri/400.css";
+import "@fontsource/el-messiri/cyrillic-400.css";
 
 // Gatsby's Link overrides:
 // Gatsby Link calls the `enqueue` & `hovering` methods on the global variable ___loader.
@@ -26,3 +35,13 @@ export const parameters = {
     },
   },
 };
+
+const engine = new Styletron();
+
+export const decorators = [
+  (Story) => (
+    <StyletronProvider value={engine}>
+      <BaseProvider theme={customTheme}>{Story()}</BaseProvider>
+    </StyletronProvider>
+  ),
+];

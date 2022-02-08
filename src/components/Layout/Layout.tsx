@@ -3,9 +3,18 @@ import { BaseProvider, LocaleProvider } from "baseui";
 import { Helmet } from "react-helmet";
 import { useSiteMetadata } from "../../hooks/useSiteMetadata";
 import { localeOverrideRu } from "../../locale/localeOverrideRu";
-import { PageWrapper } from "./PageWrapper";
 import { Header } from "../Header";
 import { customTheme } from "../../theme";
+import { themedStyled } from "../../theme";
+
+export const PageWrapper = themedStyled("div", ({ $theme }) => ({
+  display: "flex",
+  flexDirection: "column",
+
+  [$theme.mediaQuery["3md"]]: {
+    flexDirection: "row",
+  },
+}));
 
 interface LayoutProps {
   children: ReactNode;

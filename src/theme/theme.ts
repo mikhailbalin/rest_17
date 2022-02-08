@@ -27,6 +27,42 @@ const overrides: DeepPartial<Theme> = {
     DisplayLarge: {
       fontFamily: "El Messiri",
     },
+    HeadingXXLarge: {
+      fontFamily: "El Messiri",
+      fontSize: "28px",
+      lineHeight: "32px",
+      fontWeight: 400,
+    },
+    HeadingXLarge: {
+      fontFamily: "El Messiri",
+      fontSize: "32px",
+      lineHeight: "40px",
+      fontWeight: 400,
+    },
+    HeadingLarge: {
+      fontFamily: "El Messiri",
+      fontSize: "28px",
+      lineHeight: "36px",
+      fontWeight: 400,
+    },
+    HeadingMedium: {
+      fontFamily: "Jost",
+      fontSize: "24px",
+      lineHeight: "30px",
+      fontWeight: 500,
+    },
+    HeadingSmall: {
+      fontFamily: "Jost",
+      fontSize: "18px",
+      lineHeight: "24px",
+      fontWeight: 500,
+    },
+    HeadingXSmall: {
+      fontFamily: "Jost",
+      fontSize: "16px",
+      lineHeight: "24px",
+      fontWeight: 500,
+    },
   },
 };
 

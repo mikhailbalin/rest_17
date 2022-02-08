@@ -5,6 +5,8 @@ import {
   HeadingMedium,
   HeadingSmall,
   HeadingXSmall,
+  ParagraphMedium,
+  ParagraphSmall,
 } from "baseui/typography";
 
 export const H1: typeof HeadingXXLarge = (props) => (
@@ -29,4 +31,16 @@ export const H5: typeof HeadingLarge = (props) => (
 
 export const H6: typeof HeadingXSmall = (props) => (
   <HeadingXSmall {...props} $style={{ marginTop: 0, marginBottom: "12px" }} />
+);
+
+export const P2: typeof ParagraphMedium = (props) => (
+  <ParagraphMedium {...props} $style={{ marginTop: 0, marginBottom: "18px" }} />
+);
+
+export const P3: typeof ParagraphSmall = (props) => (
+  <ParagraphSmall
+    {...props}
+    as="small"
+    $style={{ marginTop: 0, marginBottom: 0, display: "block" }}
+  />
 );

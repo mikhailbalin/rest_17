@@ -63,6 +63,14 @@ const overrides: DeepPartial<Theme> = {
       lineHeight: "24px",
       fontWeight: 500,
     },
+    ParagraphMedium: {
+      fontSize: "16px",
+      lineHeight: "24px",
+    },
+    ParagraphSmall: {
+      fontSize: "16px",
+      lineHeight: "24px",
+    },
   },
 };
 

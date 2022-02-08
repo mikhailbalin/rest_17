@@ -2,5 +2,5 @@ export {
   customTheme,
   themedStyled,
   themedWithStyle,
-  themedUseStyletron,
+  useThemedStyletron,
 } from "./theme";

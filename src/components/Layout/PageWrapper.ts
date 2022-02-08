@@ -1,6 +1,6 @@
 import { themedStyled } from "../../theme";
 
-export const PageWrapper = themedStyled("span", ({ $theme }) => ({
+export const PageWrapper = themedStyled("div", ({ $theme }) => ({
   display: "flex",
   flexDirection: "column",
 

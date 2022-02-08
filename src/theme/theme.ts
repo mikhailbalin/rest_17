@@ -10,10 +10,20 @@ import { getResponsiveTheme, ResponsiveTheme } from "./getResponsiveTheme";
 
 const primitives: Partial<ThemePrimitives> = {
   primaryFontFamily: "Jost",
+  primaryA: "#0e0e0f",
 };
 
 const overrides: DeepPartial<Theme> = {
   typography: {
+    DisplayXSmall: {
+      fontFamily: "El Messiri",
+    },
+    DisplaySmall: {
+      fontFamily: "El Messiri",
+    },
+    DisplayMedium: {
+      fontFamily: "El Messiri",
+    },
     DisplayLarge: {
       fontFamily: "El Messiri",
     },
@@ -36,4 +46,4 @@ export const customTheme: CustomTheme = {
 
 export const themedStyled = createThemedStyled<CustomTheme>();
 export const themedWithStyle = createThemedWithStyle<CustomTheme>();
-export const themedUseStyletron = createThemedUseStyletron<CustomTheme>();
+export const useThemedStyletron = createThemedUseStyletron<CustomTheme>();

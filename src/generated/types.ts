@@ -1421,6 +1421,7 @@ export type QuerySiteArgs = {
   polyfill?: InputMaybe<BooleanQueryOperatorInput>;
   port?: InputMaybe<IntQueryOperatorInput>;
   siteMetadata?: InputMaybe<SiteSiteMetadataFilterInput>;
+  trailingSlash?: InputMaybe<StringQueryOperatorInput>;
 };
 
 export type QuerySiteBuildMetadataArgs = {
@@ -1488,6 +1489,7 @@ export type Site = Node & {
   polyfill?: Maybe<Scalars["Boolean"]>;
   port?: Maybe<Scalars["Int"]>;
   siteMetadata?: Maybe<SiteSiteMetadata>;
+  trailingSlash?: Maybe<Scalars["String"]>;
 };
 
 export type SiteBuildTimeArgs = {
@@ -1833,6 +1835,7 @@ export enum SiteFieldsEnum {
   SiteMetadataDescription = "siteMetadata___description",
   SiteMetadataSiteUrl = "siteMetadata___siteUrl",
   SiteMetadataTitle = "siteMetadata___title",
+  TrailingSlash = "trailingSlash",
 }
 
 export type SiteFilterInput = {
@@ -1847,6 +1850,7 @@ export type SiteFilterInput = {
   polyfill?: InputMaybe<BooleanQueryOperatorInput>;
   port?: InputMaybe<IntQueryOperatorInput>;
   siteMetadata?: InputMaybe<SiteSiteMetadataFilterInput>;
+  trailingSlash?: InputMaybe<StringQueryOperatorInput>;
 };
 
 export type SiteFunction = Node & {

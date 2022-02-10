@@ -1952,13 +1952,6 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fortawesome/fontawesome-common-types@npm:^0.2.36":
-  version: 0.2.36
-  resolution: "@fortawesome/fontawesome-common-types@npm:0.2.36"
-  checksum: d604ac51da0b1597127fde70c64157b70ead6af7f2643ab7dfca268ef99d4ed0b4cc823afba206362422a622e389828408bec573df802bf4f02b118d0fa18dc8
-  languageName: node
-  linkType: hard
-
 "@fortawesome/fontawesome-common-types@npm:^0.3.0":
   version: 0.3.0
   resolution: "@fortawesome/fontawesome-common-types@npm:0.3.0"
@@ -1975,30 +1968,30 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@fortawesome/free-brands-svg-icons@npm:^5.15.4":
-  version: 5.15.4
-  resolution: "@fortawesome/free-brands-svg-icons@npm:5.15.4"
+"@fortawesome/free-brands-svg-icons@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "@fortawesome/free-brands-svg-icons@npm:6.0.0"
   dependencies:
-    "@fortawesome/fontawesome-common-types": ^0.2.36
-  checksum: 06e38132fbdf04d8677cf6e47e73cd566f68256f542d68d354e26f5ca7536c714b56f5f3dc6c670065b888ee08bc913bb4f213ab08225faf955d893a6a86ed02
+    "@fortawesome/fontawesome-common-types": ^0.3.0
+  checksum: 020e006dafafb5acd6428b50f23f8d52f8d684840b6494c6a7d4e90aebd7e8fc3dc0d839252ed1ff74eb431299e7970fed4cfc1085be14253566b9cd75eb2c74
   languageName: node
   linkType: hard
 
-"@fortawesome/free-regular-svg-icons@npm:^5.15.4":
-  version: 5.15.4
-  resolution: "@fortawesome/free-regular-svg-icons@npm:5.15.4"
+"@fortawesome/free-regular-svg-icons@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "@fortawesome/free-regular-svg-icons@npm:6.0.0"
   dependencies:
-    "@fortawesome/fontawesome-common-types": ^0.2.36
-  checksum: 2e6039e3bb2125940ed2cb5738b6562b082755c1e45b73571ee92d976773ab81118c9efb9a7b57453b664a025613e81e1dafd2235aafeaadd8f0d75f8e1fe25e
+    "@fortawesome/fontawesome-common-types": ^0.3.0
+  checksum: a1e25cdf58051f63d7254dd165b97381c9fbdedcccd0079aa83f0400cf37b74a980f8a6f8870d7cd462063bc718d505389087837af3439877a200a02f9b2ff0f
   languageName: node
   linkType: hard
 
-"@fortawesome/free-solid-svg-icons@npm:^5.15.4":
-  version: 5.15.4
-  resolution: "@fortawesome/free-solid-svg-icons@npm:5.15.4"
+"@fortawesome/free-solid-svg-icons@npm:^6.0.0":
+  version: 6.0.0
+  resolution: "@fortawesome/free-solid-svg-icons@npm:6.0.0"
   dependencies:
-    "@fortawesome/fontawesome-common-types": ^0.2.36
-  checksum: eb037b703827ee37af3387a964afc7a190ff42a674ef46f4a6c295b634a38e849741eca78306b6423eaf3062d6ab1e7372aac5be2aec06f0fd9e8bd8110efcf9
+    "@fortawesome/fontawesome-common-types": ^0.3.0
+  checksum: af00e4245e20283f74c37e3c44a247d086ef54cd57e8e0b26178e82d4f400514e405dff6e6d0fd67d50be873180e41c5347f1baaee7a6506228f88390204064a
   languageName: node
   linkType: hard
 
@@ -2937,6 +2930,18 @@ __metadata:
   peerDependencies:
     react: ^16.13.1 || ^17.0.0
   checksum: bc84bd514bc127f898819a0c6f1a6915d9541011bd8aefa1fcc1c9bea8939f31051409e546bdec92babfa5b56092a16d05ef6d318304ac029299df5181dc94c8
+  languageName: node
+  linkType: hard
+
+"@mdx-js/react@npm:^2.0.0":
+  version: 2.0.0
+  resolution: "@mdx-js/react@npm:2.0.0"
+  dependencies:
+    "@types/mdx": ^2.0.0
+    "@types/react": ">=16"
+  peerDependencies:
+    react: ">=16"
+  checksum: 4d47ac0418eb9820527829838aaf508a2cdea82f7be8c62b4f739bb2a439f98556360dcdf4cef74f7db615f3e0c05e28353c4b5b182bc36e1b920893f54670f4
   languageName: node
   linkType: hard
 
@@ -4881,6 +4886,13 @@ __metadata:
   languageName: node
   linkType: hard
 
+"@types/mdx@npm:^2.0.0":
+  version: 2.0.1
+  resolution: "@types/mdx@npm:2.0.1"
+  checksum: 521ee9f976af45859a4dd60b159e1cc09109de49ec5570fe70f34cddb0a7b5472b87c1bea743429270398207a997821dec34fd7bd63cbc2a1e5f2f6c701dd1c2
+  languageName: node
+  linkType: hard
+
 "@types/minimatch@npm:*":
   version: 3.0.5
   resolution: "@types/minimatch@npm:3.0.5"
@@ -5043,7 +5055,7 @@ __metadata:
   languageName: node
   linkType: hard
 
-"@types/react@npm:^17.0.39":
+"@types/react@npm:>=16, @types/react@npm:^17.0.39":
   version: 17.0.39
   resolution: "@types/react@npm:17.0.39"
   dependencies:
@@ -21465,16 +21477,16 @@ __metadata:
     "@fontsource/el-messiri": ^4.5.3
     "@fontsource/jost": ^4.5.3
     "@fortawesome/fontawesome-svg-core": ^1.3.0
-    "@fortawesome/free-brands-svg-icons": ^5.15.4
-    "@fortawesome/free-regular-svg-icons": ^5.15.4
-    "@fortawesome/free-solid-svg-icons": ^5.15.4
+    "@fortawesome/free-brands-svg-icons": ^6.0.0
+    "@fortawesome/free-regular-svg-icons": ^6.0.0
+    "@fortawesome/free-solid-svg-icons": ^6.0.0
     "@fortawesome/react-fontawesome": ^0.1.17
     "@graphql-codegen/cli": 2.6.1
     "@graphql-codegen/introspection": 2.1.1
     "@graphql-codegen/near-operation-file-preset": ^2.2.4
     "@graphql-codegen/typescript": 2.4.3
     "@graphql-codegen/typescript-operations": 2.3.0
-    "@mdx-js/react": ^1.6.22
+    "@mdx-js/react": ^2.0.0
     "@storybook/addon-actions": ^6.4.18
     "@storybook/addon-docs": ^6.4.18
     "@storybook/addon-essentials": ^6.4.18

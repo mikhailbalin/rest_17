@@ -1,21 +1,15 @@
 import React from "react";
-
-import { Button } from "./Button";
 import "./header.css";
+// import { Button } from "./Button";
 
-interface HeaderProps {
-  user?: {};
-  onLogin: () => void;
-  onLogout: () => void;
-  onCreateAccount: () => void;
-}
+// interface HeaderProps {
+//   user?: {};
+//   onLogin: () => void;
+//   onLogout: () => void;
+//   onCreateAccount: () => void;
+// }
 
-export const Header = ({
-  user,
-  onLogin,
-  onLogout,
-  onCreateAccount,
-}: HeaderProps) => (
+export const Header = () => (
   <header>
     <div className="wrapper">
       <div>
@@ -42,7 +36,7 @@ export const Header = ({
         </svg>
         {/* <h1>Acme</h1> */}
       </div>
-      <div>
+      {/* <div>
         {user ? (
           <Button size="small" onClick={onLogout} label="Log out" />
         ) : (
@@ -56,7 +50,7 @@ export const Header = ({
             />
           </>
         )}
-      </div>
+      </div> */}
     </div>
   </header>
 );

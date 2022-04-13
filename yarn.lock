@@ -8008,6 +8008,15 @@ __metadata:
   languageName: node
   linkType: hard
 
+"clean-stack@npm:^4.1.0":
+  version: 4.1.0
+  resolution: "clean-stack@npm:4.1.0"
+  dependencies:
+    escape-string-regexp: 5.0.0
+  checksum: 56fdca7a67a61528676eaddce35442824700b674cf882150ac416824966f65b5e15d4ea02d1d47f4d16ad50213718c1f00ae0f6cca46aeec3fd761b49cf7204f
+  languageName: node
+  linkType: hard
+
 "cli-boxes@npm:^2.2.0, cli-boxes@npm:^2.2.1":
   version: 2.2.1
   resolution: "cli-boxes@npm:2.2.1"
@@ -10471,6 +10480,13 @@ __metadata:
   version: 2.0.0
   resolution: "escape-string-regexp@npm:2.0.0"
   checksum: 9f8a2d5743677c16e85c810e3024d54f0c8dea6424fad3c79ef6666e81dd0846f7437f5e729dfcdac8981bc9e5294c39b4580814d114076b8d36318f46ae4395
+  languageName: node
+  linkType: hard
+
+"escape-string-regexp@npm:5.0.0":
+  version: 5.0.0
+  resolution: "escape-string-regexp@npm:5.0.0"
+  checksum: 20daabe197f3cb198ec28546deebcf24b3dbb1a5a269184381b3116d12f0532e06007f4bc8da25669d6a7f8efb68db0758df4cd981f57bc5b57f521a3e12c59e
   languageName: node
   linkType: hard
 
@@ -17153,9 +17169,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"netlify-cms-app@npm:2.15.66":
-  version: 2.15.66
-  resolution: "netlify-cms-app@npm:2.15.66"
+"netlify-cms-app@npm:2.15.72":
+  version: 2.15.72
+  resolution: "netlify-cms-app@npm:2.15.72"
   dependencies:
     "@emotion/core": ^10.0.35
     "@emotion/styled": ^10.0.27
@@ -17163,33 +17179,33 @@ __metadata:
     immutable: ^3.7.6
     lodash: ^4.17.11
     moment: ^2.24.0
-    netlify-cms-backend-azure: ^1.3.0
+    netlify-cms-backend-azure: ^1.3.1
     netlify-cms-backend-bitbucket: ^2.14.0
-    netlify-cms-backend-git-gateway: ^2.13.0
-    netlify-cms-backend-github: ^2.14.0
+    netlify-cms-backend-git-gateway: ^2.13.1
+    netlify-cms-backend-github: ^2.14.1
     netlify-cms-backend-gitlab: ^2.13.0
     netlify-cms-backend-proxy: ^1.2.3
     netlify-cms-backend-test: ^2.11.3
-    netlify-cms-core: ^2.54.5
+    netlify-cms-core: ^2.55.2
     netlify-cms-editor-component-image: ^2.7.0
     netlify-cms-lib-auth: ^2.4.2
-    netlify-cms-lib-util: ^2.15.0
-    netlify-cms-lib-widgets: ^1.8.0
-    netlify-cms-locales: ^1.38.2
-    netlify-cms-ui-default: ^2.15.4
+    netlify-cms-lib-util: ^2.15.1
+    netlify-cms-lib-widgets: ^1.8.1
+    netlify-cms-locales: ^1.39.0
+    netlify-cms-ui-default: ^2.15.5
     netlify-cms-widget-boolean: ^2.4.1
-    netlify-cms-widget-code: ^1.3.3
-    netlify-cms-widget-colorstring: ^1.1.1
+    netlify-cms-widget-code: ^1.3.4
+    netlify-cms-widget-colorstring: ^1.1.2
     netlify-cms-widget-date: ^2.6.3
     netlify-cms-widget-datetime: ^2.7.4
-    netlify-cms-widget-file: ^2.11.1
+    netlify-cms-widget-file: ^2.12.1
     netlify-cms-widget-image: ^2.8.1
     netlify-cms-widget-list: ^2.10.1
     netlify-cms-widget-map: ^1.5.1
-    netlify-cms-widget-markdown: ^2.15.0
+    netlify-cms-widget-markdown: ^2.15.1
     netlify-cms-widget-number: ^2.5.0
-    netlify-cms-widget-object: ^2.7.1
-    netlify-cms-widget-relation: ^2.11.0
+    netlify-cms-widget-object: ^2.7.2
+    netlify-cms-widget-relation: ^2.11.1
     netlify-cms-widget-select: ^2.8.2
     netlify-cms-widget-string: ^2.3.0
     netlify-cms-widget-text: ^2.4.1
@@ -17199,13 +17215,13 @@ __metadata:
   peerDependencies:
     react: ^16.8.4 || ^17.0.0
     react-dom: ^16.8.4 || ^17.0.0
-  checksum: aed23c864c6d7dddf99f554b5d765c9c90e56a3223a8fa8131f4f79623a73e9e35f245525b8e2618b6973eeccb5c3297f24d940b0640a7e20f01cb154c72089a
+  checksum: 0cdf8a9e81cb65ed36719438426e37bc7c28af3efb4c7d904b362711d2eab6777a043d98dabc1ebdb6e25ac7e8e3c49dd4dd988ee6bae56ea32fd077235131b4
   languageName: node
   linkType: hard
 
-"netlify-cms-backend-azure@npm:^1.3.0":
-  version: 1.3.0
-  resolution: "netlify-cms-backend-azure@npm:1.3.0"
+"netlify-cms-backend-azure@npm:^1.3.1":
+  version: 1.3.1
+  resolution: "netlify-cms-backend-azure@npm:1.3.1"
   dependencies:
     js-base64: ^3.0.0
     semaphore: ^1.1.0
@@ -17219,7 +17235,7 @@ __metadata:
     netlify-cms-ui-default: ^2.12.1
     prop-types: ^15.7.2
     react: ^16.8.4 || ^17.0.0
-  checksum: 280ce513997c7111ffa263c43290b410c27721d5501d160ecc018fcb597bdf9ccad0d005ec25d3579c226adb4e9ff51fb99ff8d4ea92069d88800981bd1460fe
+  checksum: 235bbc464fd4d100f9d437b285c23aca34197394e3824463c8e523a209035d4d5d260aed7b82d5a40f32fc447b4226f6dc61cf8ab7396daed4d794d7a0ae4896
   languageName: node
   linkType: hard
 
@@ -17245,9 +17261,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"netlify-cms-backend-git-gateway@npm:^2.13.0":
-  version: 2.13.0
-  resolution: "netlify-cms-backend-git-gateway@npm:2.13.0"
+"netlify-cms-backend-git-gateway@npm:^2.13.1":
+  version: 2.13.1
+  resolution: "netlify-cms-backend-git-gateway@npm:2.13.1"
   dependencies:
     gotrue-js: ^0.9.24
     ini: ^2.0.0
@@ -17265,13 +17281,13 @@ __metadata:
     netlify-cms-ui-default: ^2.12.1
     prop-types: ^15.7.2
     react: ^16.8.4 || ^17.0.0
-  checksum: 6a9379e3a2b5a82b42c8d5c2e8230260162d2abc33de2f33d5de48283abc424498c2ca2fe48a11f185fac46b25b0ddb17df1ebb24a371c777a91ec52bc8ef6f8
+  checksum: fc6ab28d7ba8daec0d46dbe2a873f2078800e30f0b9cdee2a8cb278ed0c7aa704922d257b22ed2307eddb1997dcd59c705f3b4ecf1a4c52b4b72ae74584e5b2d
   languageName: node
   linkType: hard
 
-"netlify-cms-backend-github@npm:^2.14.0":
-  version: 2.14.0
-  resolution: "netlify-cms-backend-github@npm:2.14.0"
+"netlify-cms-backend-github@npm:^2.14.1":
+  version: 2.14.1
+  resolution: "netlify-cms-backend-github@npm:2.14.1"
   dependencies:
     apollo-cache-inmemory: ^1.6.2
     apollo-client: ^2.6.3
@@ -17291,7 +17307,7 @@ __metadata:
     netlify-cms-ui-default: ^2.12.1
     prop-types: ^15.7.2
     react: ^16.8.4 || ^17.0.0
-  checksum: ec8ec1dae24776e2dc22ae8cb53e28f8ad420a9baa5df48af7d5d6fd71c71c3b1a9be51686e19ee27ab13485eec109fe3ec4e6d36c463f26b2d45eac49091bde
+  checksum: 73c6ce9102382a4818445f7668a1df13bbaaea98a2f9532540e53369a4402e9a95a9334cae2f69f81857712a8af7c82892aa5fbc1a3f2eea6b44bb8aa8aa93a8
   languageName: node
   linkType: hard
 
@@ -17349,14 +17365,15 @@ __metadata:
   languageName: node
   linkType: hard
 
-"netlify-cms-core@npm:^2.54.5":
-  version: 2.54.5
-  resolution: "netlify-cms-core@npm:2.54.5"
+"netlify-cms-core@npm:^2.55.2":
+  version: 2.55.2
+  resolution: "netlify-cms-core@npm:2.55.2"
   dependencies:
     "@iarna/toml": 2.2.5
     ajv: 8.1.0
     ajv-errors: ^3.0.0
     ajv-keywords: ^5.0.0
+    clean-stack: ^4.1.0
     copy-text-to-clipboard: ^3.0.0
     deepmerge: ^4.2.2
     diacritics: ^1.3.0
@@ -17416,7 +17433,7 @@ __metadata:
     react: ^16.8.4 || ^17.0.0
     react-dom: ^16.8.4 || ^17.0.0
     react-immutable-proptypes: ^2.1.0
-  checksum: 1a93735ac3a3a616f1c64d1677dabd88283d4403c7b0c0ededb62c2e23648068dbce3524471c6cfea7158130853d01727a5345d93fa216d366b2049716fdd2b4
+  checksum: d7b95d4d86991ef310bd8a703a7e25a7b3daace0d13b29d74e2aed1a73699dc23cfcde16aa46850f50795c647acd9e604ca5173f7e2aa6a0c2422be2c1c6bb16
   languageName: node
   linkType: hard
 
@@ -17440,9 +17457,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"netlify-cms-lib-util@npm:^2.15.0":
-  version: 2.15.0
-  resolution: "netlify-cms-lib-util@npm:2.15.0"
+"netlify-cms-lib-util@npm:^2.15.1":
+  version: 2.15.1
+  resolution: "netlify-cms-lib-util@npm:2.15.1"
   dependencies:
     js-sha256: ^0.9.0
     localforage: ^1.7.3
@@ -17450,31 +17467,31 @@ __metadata:
   peerDependencies:
     immutable: ^3.7.6
     lodash: ^4.17.11
-  checksum: 447d6c74ac2de3bf126986eb08ff083d16c7595a3dc338f9d59b14231480abe21962ffc22066939acb2ba0e3308108d65e801c75417440035a88f3481adabcb3
+  checksum: 43f772e93f6e59ad919bcb7991ba20496863201a646195a3d5ac8116f59115b03adfda2ff0b533d76fd15c0c101be41bb94c3b138bb6693064980f2c9753d21d
   languageName: node
   linkType: hard
 
-"netlify-cms-lib-widgets@npm:^1.8.0":
-  version: 1.8.0
-  resolution: "netlify-cms-lib-widgets@npm:1.8.0"
+"netlify-cms-lib-widgets@npm:^1.8.1":
+  version: 1.8.1
+  resolution: "netlify-cms-lib-widgets@npm:1.8.1"
   peerDependencies:
     immutable: ^3.7.6
     lodash: ^4.17.11
     moment: ^2.24.0
-  checksum: c35a0f7e28c8d56554dee4572b5f225c32974654104c69ad570676ea320de8868a1105afe64512f9ad60349d1d4a16afe945a2c368adc37cb31cc97b3b27185d
+  checksum: e402295e8785c20b226c6fa9f04e8db18231024549cd2969b215bd4f01303642f5be9952b10b1aab627774be15ea1e36e6e4349b096d8b541ae88f2b501c0606
   languageName: node
   linkType: hard
 
-"netlify-cms-locales@npm:^1.38.2":
-  version: 1.38.2
-  resolution: "netlify-cms-locales@npm:1.38.2"
-  checksum: 6ed30cdee1de3c3be6a66711eac3eb592084697b57119f53cf83c2489e0607f0bc4df9922285fee24dffedeacf5460022eaa4948004d21106f70f1e1cea875a7
+"netlify-cms-locales@npm:^1.39.0":
+  version: 1.39.0
+  resolution: "netlify-cms-locales@npm:1.39.0"
+  checksum: a65a74bebaf9a78481bbd2cb10a6452593aca02be9d46cc108fc894b9f7c35bef78b52c6aea8fc75e5fb049e0c786d1a4c307f76da896b6962531c945a8c4c74
   languageName: node
   linkType: hard
 
-"netlify-cms-ui-default@npm:^2.15.4":
-  version: 2.15.4
-  resolution: "netlify-cms-ui-default@npm:2.15.4"
+"netlify-cms-ui-default@npm:^2.15.5":
+  version: 2.15.5
+  resolution: "netlify-cms-ui-default@npm:2.15.5"
   dependencies:
     react-aria-menubutton: ^7.0.0
     react-toggled: ^1.1.2
@@ -17485,7 +17502,7 @@ __metadata:
     lodash: ^4.17.11
     prop-types: ^15.7.2
     react: ^16.8.4 || ^17.0.0
-  checksum: a33220baed7fac2c37586a69fede7db14a254b40875c1095017211969587dece1b7ebae28caefde0f675fc23755d086452b952eeab55620c7d011f1856ad2122
+  checksum: ee14606496de7ff7256f91daa2159b5f914ef1023c3b8ead1ac45a4fef46788c2c4ee3099b27feccbfa2bc30c24992a30dea1f9f2e788ea1ec47c70a4bf78c45
   languageName: node
   linkType: hard
 
@@ -17503,9 +17520,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"netlify-cms-widget-code@npm:^1.3.3":
-  version: 1.3.3
-  resolution: "netlify-cms-widget-code@npm:1.3.3"
+"netlify-cms-widget-code@npm:^1.3.4":
+  version: 1.3.4
+  resolution: "netlify-cms-widget-code@npm:1.3.4"
   dependencies:
     react-codemirror2: ^7.0.0
     react-select: ^4.0.0
@@ -17515,13 +17532,13 @@ __metadata:
     lodash: ^4.17.11
     netlify-cms-ui-default: ^2.12.1
     react: ^16.8.4 || ^17.0.0
-  checksum: e729e1aa349d8d47342034b1ff7ca8fcac0cc2a8dcf29c5578c3f49e71a8c0971f5657fb5a2baf32029ed0653489e959f2c7ad0f2057c1469df256712b78f615
+  checksum: 6d26e44ade772b47510aac8aaf20874aa1d32a33ec996eefe881e340e6c1862164b18b237d31d1b229519da16c4111f7915213bdbebf8c6d0bea6bab5956c241
   languageName: node
   linkType: hard
 
-"netlify-cms-widget-colorstring@npm:^1.1.1":
-  version: 1.1.1
-  resolution: "netlify-cms-widget-colorstring@npm:1.1.1"
+"netlify-cms-widget-colorstring@npm:^1.1.2":
+  version: 1.1.2
+  resolution: "netlify-cms-widget-colorstring@npm:1.1.2"
   dependencies:
     react-color: ^2.18.1
     validate-color: ^2.1.0
@@ -17531,7 +17548,7 @@ __metadata:
     netlify-cms-ui-default: ^2.12.1
     prop-types: ^15.7.2
     react: ^16.8.4 || ^17.0.0
-  checksum: e3b6d253e3be4d79d7cbc740d59210f63aa0cc57eee80daa6eb35618daa5dff4d8969da8a90bcc27b5cc1fc2543eefc92858e2563cdee51d08ac62ea16063589
+  checksum: c53a6ad874fed139775bbb407a1c971e5150d39456f343b35067cb6f8828307652522cec3c51deb22dddb1619e01c7b6f2e38874ddf6f2956ded15b71c6a4831
   languageName: node
   linkType: hard
 
@@ -17565,9 +17582,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"netlify-cms-widget-file@npm:^2.11.1":
-  version: 2.11.1
-  resolution: "netlify-cms-widget-file@npm:2.11.1"
+"netlify-cms-widget-file@npm:^2.12.1":
+  version: 2.12.1
+  resolution: "netlify-cms-widget-file@npm:2.12.1"
   dependencies:
     array-move: 4.0.0
     common-tags: ^1.8.0
@@ -17581,7 +17598,7 @@ __metadata:
     react: ^16.8.4 || ^17.0.0
     react-immutable-proptypes: ^2.1.0
     uuid: ^3.3.2
-  checksum: 51d9c2249458f4ee4afee73db4dd918ba63ddaec2fd0b3c1989eaccfd89c3e3df29addad9f14eb322c3d26e29fedd79119183d7ad45e278f61bc164073b393a5
+  checksum: c3ff3b44133a07281591bd4278d6f256ef833a39f6572445705c2de5031adf3f0443ee9698a517a1641614fc8d73deefdaef14fe224e14a8b51ba4793ad26ac0
   languageName: node
   linkType: hard
 
@@ -17636,9 +17653,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"netlify-cms-widget-markdown@npm:^2.15.0":
-  version: 2.15.0
-  resolution: "netlify-cms-widget-markdown@npm:2.15.0"
+"netlify-cms-widget-markdown@npm:^2.15.1":
+  version: 2.15.1
+  resolution: "netlify-cms-widget-markdown@npm:2.15.1"
   dependencies:
     dompurify: ^2.2.6
     is-hotkey: ^0.2.0
@@ -17668,7 +17685,7 @@ __metadata:
     react: ^16.8.4 || ^17.0.0
     react-dom: ^16.8.4 || ^17.0.0
     react-immutable-proptypes: ^2.1.0
-  checksum: 8912e5e2d2b6d539c092b4474eab8095fe7c1c18f48ec466987e8ded06187373ff9af8492bbb3746a90a073f1d4fe1c0768ee0cf6e73bf869aa453f4b172128e
+  checksum: ff74552e2ec2f08e02a4dce8824421667bdaacd70a3ee61b1d8d33e35e5613325c0cafffd5fe201c3ce39169fae58d8eb65b74d70be140596f72334424a1e714
   languageName: node
   linkType: hard
 
@@ -17683,9 +17700,9 @@ __metadata:
   languageName: node
   linkType: hard
 
-"netlify-cms-widget-object@npm:^2.7.1":
-  version: 2.7.1
-  resolution: "netlify-cms-widget-object@npm:2.7.1"
+"netlify-cms-widget-object@npm:^2.7.2":
+  version: 2.7.2
+  resolution: "netlify-cms-widget-object@npm:2.7.2"
   peerDependencies:
     "@emotion/core": ^10.0.35
     "@emotion/styled": ^10.0.27
@@ -17695,13 +17712,13 @@ __metadata:
     prop-types: ^15.7.2
     react: ^16.8.4 || ^17.0.0
     react-immutable-proptypes: ^2.1.0
-  checksum: bab869459ef54974d5de13d96483d23f9434e809512711d4ae5c4664c00f28267bafec7f4250b40e4862835a4341df7d4e59bc60f154147b5b946e61f38e9970
+  checksum: 4214c7cde29b5a1094219741d8ee9d758ee54b5725a7109f663bdffae760fe2d0bcd93299fd2cca3e931d010e69346d7a0baf8dca668c263ebe99397372c3702
   languageName: node
   linkType: hard
 
-"netlify-cms-widget-relation@npm:^2.11.0":
-  version: 2.11.0
-  resolution: "netlify-cms-widget-relation@npm:2.11.0"
+"netlify-cms-widget-relation@npm:^2.11.1":
+  version: 2.11.1
+  resolution: "netlify-cms-widget-relation@npm:2.11.1"
   dependencies:
     react-select: ^4.0.0
     react-sortable-hoc: ^2.0.0
@@ -17716,7 +17733,7 @@ __metadata:
     prop-types: ^15.7.2
     react: ^16.8.4 || ^17.0.0
     uuid: ^3.3.2
-  checksum: aa6a1bf85561d787ca06a48fd8a6793493faf28a0b44007b1cae16b05e7d628436ae55092cf20679f34deb693e9f0ac91ec7cd7bcdc3c8837a31fe32efb48e66
+  checksum: b33685635927e00ef09874894cfcbdb51e0538ed391a731ccf7309e2d4a171666acd2c06db80b967d8ad2053be32aa63c9c8d3062c931eae4ade646272d11ea5
   languageName: node
   linkType: hard
 
@@ -21849,7 +21866,7 @@ __metadata:
     gatsby-transformer-remark: 5.7.0
     graphql: 16.3.0
     modern-normalize: 1.1.0
-    netlify-cms-app: 2.15.66
+    netlify-cms-app: 2.15.72
     react: 17.0.2
     react-dom: 17.0.2
     react-helmet: 6.1.0
